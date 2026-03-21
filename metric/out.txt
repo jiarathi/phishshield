@@ -1,0 +1,14 @@
+Criterion 3: System speed (median < 500 ms)
+  Base URL: http://127.0.0.1:8000
+  Runs: 5
+  Delay between requests: 6.0 s (avoids rate limit)
+  Time source: client elapsed
+
+
+  Client elapsed:
+    Median: 10.6 ms
+    Min:    6.2 ms
+    Max:    20.9 ms
+    Mean:   11.2 ms
+
+  Criterion 3 (median < 500 ms): PASS

@@ -1,0 +1,12 @@
+{
+  "name": "tfidf_logreg_calibrated",
+  "version": "2026.03.01",
+  "threshold": 0.09795047540078516,
+  "artifact_filename": "text_model.joblib",
+  "trained_on": {
+    "dataset": "sms_spam.csv",
+    "n_rows": 5627,
+    "pos_rate": 0.1379065221254665,
+    "notes": "Threshold tuned for precision >= 85% on full sms_spam.csv dataset."
+  }
+}

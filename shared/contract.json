@@ -1,0 +1,46 @@
+{
+  "AnalyzeRequest": {
+    "text": "string"
+  },
+  "AnalyzeResponse": {
+    "risk_label": "low|medium|high",
+    "risk_score": "float (0..1)",
+    "is_scam": "bool",
+    "summary": "string",
+    "reasons": [
+      "string"
+    ],
+    "actions": [
+      "string"
+    ],
+    "intent": {
+      "category": "string",
+      "confidence": "float (0..1)",
+      "signals": [
+        "string"
+      ]
+    },
+    "url_findings": [
+      {
+        "url": "string",
+        "final_url": "string|null",
+        "domain": "string|null",
+        "risk_label": "low|medium|high",
+        "risk_score": "float (0..1)",
+        "reasons": [
+          "string"
+        ],
+        "reputation": {
+          "provider": "string",
+          "status": "clean|malicious|unknown|error",
+          "details": "object"
+        }
+      }
+    ],
+    "model": {
+      "name": "string",
+      "version": "string",
+      "threshold": "float"
+    }
+  }
+}
