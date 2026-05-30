@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 
-const API_ENDPOINT = "http://127.0.0.1:8000/api/analyze";
+const API_ENDPOINT = "https://phishshield-production-3dfa.up.railway.app/api/analyze";
 
 // Threshold mapping (tune later)
 const THRESH_WARNING = 0.5;
