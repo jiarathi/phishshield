@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 
-const API_ENDPOINT = "https://phishshield-production-3dfa.up.railway.app/api/analyze";
+const API_ENDPOINT = `${import.meta.env.VITE_API_URL}/api/analyze`;
 
 // Threshold mapping (tune later)
 const THRESH_WARNING = 0.5;
