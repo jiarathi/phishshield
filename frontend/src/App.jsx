@@ -372,7 +372,7 @@ export default function App() {
           <div className="flex items-center space-x-3">
             <i className="fa-solid fa-shield-halved text-3xl text-brand-500"></i>
             <div>
-              <h1 className="text-2xl font-bold tracking-tight">ScamShield</h1>
+              <h1 className="text-2xl font-bold tracking-tight">PhishShield</h1>
               <p className="text-xs text-brand-100 hidden sm:block">Consumer Protection Assistant</p>
             </div>
           </div>
@@ -711,7 +711,7 @@ export default function App() {
         <div className="container mx-auto px-4 text-center">
           <div className="mb-8">
             <i className="fa-solid fa-shield-halved text-4xl text-brand-500 mb-4"></i>
-            <h3 className="text-2xl font-bold text-white">ScamShield</h3>
+            <h3 className="text-2xl font-bold text-white">PhishShield</h3>
             <p className="max-w-md mx-auto mt-2 text-slate-400">
               Empowering consumers to spot scams and stay safe online. Built for seniors and high-risk groups.
             </p>
@@ -744,7 +744,7 @@ export default function App() {
           </div>
 
           <p className="mt-12 text-xs text-slate-600">
-            © 2024 ScamShield Project. Not affiliated with any brands mentioned. For educational purposes only.
+            © 2024 PhishShield Project. Not affiliated with any brands mentioned. For educational purposes only.
           </p>
         </div>
       </footer>
